@@ -30,5 +30,17 @@ services:
       - ./plugins/:/var/www/html/wp-content/plugins/
       - ./themes/:/var/www/html/wp-content/themes/
       - ./uploads/:/var/www/html/wp-content/uploads/
+
+  adminer:
+    image: adminer:latest
+    depends_on:
+      - db
+    ports:
+      - 8002:8080
+    restart: always
+    environment:
+      - DATABASE_URL=mysql://wordpress:wordpress@db:3306/wordpress
+      - ADMINER_DEFAULT_SERVER=db
+
 volumes:
   db_data: {}
