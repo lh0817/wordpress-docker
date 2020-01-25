@@ -39,8 +39,8 @@ services:
       - 8002:8080
     restart: always
     environment:
-      - DATABASE_URL=mysql://wordpress:wordpress@db:3306/wordpress
-      - ADMINER_DEFAULT_SERVER=db
+      DATABASE_URL: mysql://wordpress:wordpress@db:3306/wordpress
+      ADMINER_DEFAULT_SERVER: db
 
 volumes:
   db_data: {}
