@@ -1,6 +1,7 @@
 # wordpress-docker
 
-A docker-compose setup for Wordpress.
+A `docker-compose` 3.7 setup for Wordpress.
+Contains `mysql:8` and `adminer:latest`.
 
 ## Getting Started
 
@@ -26,6 +27,7 @@ $ docker-compose
 $ docker-compose up --build -d
 ```
 * Visit `http://localhost:8001` in a web browser to execute the Wordpress installation
+* Visit `http://localhost:8002` for Adminer
 
 ## Deployment
 
@@ -37,7 +39,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* **Stefan** - *Initial work*
+* **HankEye** - *Initial work*
 
 ## License
 
