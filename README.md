@@ -25,7 +25,7 @@ $ docker-compose
 ```
 $ docker-compose up --build -d
 ```
-* Visit `http://localhost:8000` in a web browser to execute the Wordpress installation
+* Visit `http://localhost:8001` in a web browser to execute the Wordpress installation
 
 ## Deployment
 
