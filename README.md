@@ -1,6 +1,7 @@
 # wordpress-docker
 
-A docker-compose setup for Wordpress.
+A `docker-compose` 3.7 setup for Wordpress.
+Contains `mysql:8` and `adminer:latest`.
 
 ## Getting Started
 
@@ -38,7 +39,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* **Stefan** - *Initial work*
+* **HankEye** - *Initial work*
 
 ## License
 
